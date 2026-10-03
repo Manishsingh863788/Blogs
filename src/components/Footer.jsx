@@ -1,7 +1,6 @@
 import React from 'react';
-import { ShieldAlert, Heart, Globe, ArrowUpRight } from 'lucide-react';
+import { ShieldAlert, Heart, ArrowUpRight } from 'lucide-react';
 import logoImg from '../assets/logo.jpg';
-import SocialLinks from './SocialLinks';
 
 export default function Footer({ setActiveTab, onOpenAuth }) {
   return (
@@ -36,14 +35,6 @@ export default function Footer({ setActiveTab, onOpenAuth }) {
             <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem', lineHeight: 1.6, marginBottom: '1.2rem' }}>
               The authoritative global real estate and land revenue legal repository. Access verified statutory acts, RERA rules, stamp duty rates, and municipal building codes worldwide.
             </p>
-            
-            {/* Social Media Channels */}
-            <div>
-              <span style={{ display: 'block', fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-main)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                Follow Our Channels
-              </span>
-              <SocialLinks variant="compact" size={18} />
-            </div>
           </div>
 
           {/* Directory Hierarchy */}
