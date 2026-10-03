@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, BookOpen, ShieldCheck, Scale, ExternalLink } from 'lucide-react';
+import { Award, BookOpen, ShieldCheck, ExternalLink } from 'lucide-react';
 import { WRITER_PROFILE } from '../data/blogsData';
 import SocialLinks from './SocialLinks';
 
@@ -66,13 +66,6 @@ export default function WriterIntro() {
 
         {/* Writer Bio & Stats */}
         <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
-            <Scale size={20} color="var(--accent-primary)" />
-            <span style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--accent-primary)' }}>
-              Legal Editorial & Author Spotlight
-            </span>
-          </div>
-
           <h2 className="serif-heading" style={{ fontSize: 'clamp(1.4rem, 3.5vw, 1.8rem)', marginBottom: '1rem', color: 'var(--text-main)' }}>
             Demystifying Global Property Laws & Statutory Acts
           </h2>
