@@ -1,9 +1,9 @@
 import React from 'react';
 
 export const SOCIAL_LINKS = {
-  youtube: 'https://youtube.com/@homedropsvilla?si=lDy_vdReeF3VXZqv',
-  instagram: 'https://www.instagram.com/homedropsvilla?igsh=aGc2d3c0NnZoa3Yw',
-  facebook: 'https://www.facebook.com/share/19TSsdtYQW/'
+  youtube: 'https://youtube.com/@realestatejaideep?si=IVC9Hqx5m-1mLP9o',
+  instagram: 'https://www.instagram.com/realestatejaideep?stkn=MWhwbXFjeW1RcWk4MQ==',
+  facebook: 'https://www.facebook.com/share/1C7d1Ffvou/'
 };
 
 export const InstagramIcon = ({ size = 20, color = "currentColor", ...props }) => (
@@ -35,7 +35,7 @@ export default function SocialLinks({ variant = "buttons", size = 18, className 
           href={SOCIAL_LINKS.youtube}
           target="_blank"
           rel="noopener noreferrer"
-          title="Home Drops Villa on YouTube"
+          title="Real Estate Jaideep on YouTube"
           style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -66,7 +66,7 @@ export default function SocialLinks({ variant = "buttons", size = 18, className 
           href={SOCIAL_LINKS.instagram}
           target="_blank"
           rel="noopener noreferrer"
-          title="Home Drops Villa on Instagram"
+          title="Real Estate Jaideep on Instagram"
           style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -97,7 +97,7 @@ export default function SocialLinks({ variant = "buttons", size = 18, className 
           href={SOCIAL_LINKS.facebook}
           target="_blank"
           rel="noopener noreferrer"
-          title="Home Drops Villa on Facebook"
+          title="Real Estate Jaideep on Facebook"
           style={{
             display: 'inline-flex',
             alignItems: 'center',

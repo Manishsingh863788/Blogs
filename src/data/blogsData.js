@@ -10,9 +10,9 @@ export const WRITER_PROFILE = {
   experience: "15+ Years in Global Property Law",
   publications: "120+ Land Act Analysis Reports",
   socials: {
-    youtube: "https://youtube.com/@homedropsvilla?si=lDy_vdReeF3VXZqv",
-    instagram: "https://www.instagram.com/homedropsvilla?igsh=aGc2d3c0NnZoa3Yw",
-    facebook: "https://www.facebook.com/share/19TSsdtYQW/"
+    youtube: "https://youtube.com/@realestatejaideep?si=IVC9Hqx5m-1mLP9o",
+    instagram: "https://www.instagram.com/realestatejaideep?stkn=MWhwbXFjeW1RcWk4MQ==",
+    facebook: "https://www.facebook.com/share/1C7d1Ffvou/"
   }
 };
 
